@@ -1,0 +1,100 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.outsideaglass.chinect.ListeningActivityFragment"
+    tools:showIn="@layout/activity_listening"
+    android:baselineAligned="false"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listeningHackingChineseArticle"
+        android:textSize="@dimen/primary_button_text_size"
+        android:background="@drawable/button_yellow"
+        android:textStyle="normal|bold"
+        style="@style/AppTheme.PrimaryButton"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/fluentUTitle"
+        style="@style/AppTheme.Title"
+        />
+
+    <TextView
+        android:id="@+id/fluentUTextView"
+        android:text="@string/listening_skills"
+        style="@style/AppTheme.ResourceTextView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fluentUButton"
+        android:textSize="@dimen/button_text_size"
+        android:background="@drawable/button_red"
+        android:textStyle="normal|bold"
+        style="@style/AppTheme.Button"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forvoTitle"
+        style="@style/AppTheme.Title"
+        />
+
+    <TextView
+        android:id="@+id/forvoTextView"
+        android:text="@string/listening_skills"
+        style="@style/AppTheme.ResourceTextView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forvoButton"
+        android:textSize="@dimen/button_text_size"
+        android:background="@drawable/button_red"
+        android:textStyle="normal|bold"
+        style="@style/AppTheme.Button"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listeningHackingChineseTitle"
+        style="@style/AppTheme.Title"
+        />
+
+    <TextView
+        android:id="@+id/listeningHackingChineseTextView"
+        android:text="@string/listening_skills"
+        style="@style/AppTheme.ResourceTextView"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listeningHackingChineseButton"
+        android:textSize="@dimen/button_text_size"
+        android:background="@drawable/button_red"
+        android:textStyle="normal|bold"
+        style="@style/AppTheme.Button"
+        />
+    </LinearLayout>
+</ScrollView>

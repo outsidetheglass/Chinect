@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Chinect</string>
+    <string name="listening_skills">Listening skills</string>
+    <string name="listening_article">How to Listen</string>
+    <string name="speaking_article">Improving Speaking</string>
+    <string name="writing_article">Learn to Write</string>
+    <string name="reading_article">Read, read, read</string>
+    <string name="vocab_skills">Vocab skills</string>
+    <string name="vocab_article">Essential Articles</string>
+    <string name="reading">Reading</string>
+    <string name="writing">Writing</string>
+    <string name="listening">Listening</string>
+    <string name="speaking">Speaking</string>
+    <string name="vocab">Vocabulary</string>
+    <string name="title_activity_listening">Listening Resources</string>
+    <string name="title_activity_vocab">Vocabulary Resources</string>
+    <string name="title_activity_reading">Reading Resources</string>
+    <string name="title_activity_writing">Writing Resources</string>
+    <string name="title_activity_speaking">Speaking Resources</string>
+</resources>

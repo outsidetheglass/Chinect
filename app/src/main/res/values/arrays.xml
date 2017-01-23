@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listening_res">
+        <item>FluentU</item>
+        <item>Forvo</item>
+        <item>HackingChinese</item>
+    </string-array>
+    <string-array name="listening_res_explanations">
+        <item>Watch videos based on the word/phrase you\'re trying to learn. They repeat the clip and emphasize the new words for you with subtitles and other helpful tools.</item>
+        <item>Listen to pronunciations by natives. Most useful for downloading the pronunciations to your Anki deck flashcards.</item>
+        <item>There are a lot of resources here based on your skill level, covering every subset you can imagine.</item>
+    </string-array>
+    <string-array name="vocab_res">
+        <item>Anki</item>
+        <item>Pleco</item>
+        <item>HackingChinese</item>
+    </string-array>
+    <string-array name="vocab_res_explanations">
+        <item>A smart flashcard app. Absolutely necessary, if you take nothing else out of the provided resources you should get Anki for your computer and phone. It uses spaced repetition software, so that the cards you have more trouble with show up more often, and the ones you know better show up less often.</item>
+        <item>An app with an extensive dictionary (including slang and dialects), an OCR (Optical Character Recognition), and many, many other tools. </item>
+        <item>There are even more lists of resources here organized based on your skill level, covering every subset you can imagine.</item>
+    </string-array>
+    <string-array name="speaking_res">
+        <item>Italki</item>
+        <item>Pimsleur</item>
+        <item>Meetup</item>
+    </string-array>
+    <string-array name="speaking_res_explanations">
+        <item>A website to find a conversation partner in Chinese. You spend some of your time teaching them a language you know in exchange for their teaching you Chinese.</item>
+        <item>A spaced repetition based program where you listen to an mp3 file that speaks Chinese to you and tells you how to respond back, allows you time to respond, and then goes on. It uses cultural relevance and is superior by the standards of most language learners to its main competitor Rosetta Stone.</item>
+        <item>A website where you enter your interests and it finds meetups near you with those interests. Look up Chinese, language exchange, international, Mandarin, etc, for best results.</item>
+    </string-array>
+    <string-array name="writing_res">
+        <item>Skritter</item>
+        <item>Lang-8</item>
+        <item>Pleco</item>
+    </string-array>
+    <string-array name="writing_res_explanations">
+        <item>An app that teaches you to write chinese characters. It costs money but it\'s well worth the few dollars a month. Remembering characters becomes far easier when you know how to write them.</item>
+        <item>A website where you write small to long journals in the target language and natives correct it for you so you can see how to write sentences and paragraphs accurately. Beyond useful, there\'s no other resource that comes close to how helpful lang-8 is (except Anki for Vocabulary).</item>
+        <item>An app that is primarily a dictionary, but one of it\'s uses is to draw characters that it then tries to match to characters in its dictionary. Very useful as a self-test.</item>
+    </string-array>
+    <string-array name="reading_res">
+        <item>DuChinese</item>
+        <item>Your favorite book, in Chinese</item>
+        <item>Chairman\'s Bao</item>
+    </string-array>
+    <string-array name="reading_res_explanations">
+        <item>An app that gives you snippets to read at different levels of difficulty. It reads it aloud to you quite slowly, and you can easily make it repeat words or press any word to see it\'s definition.</item>
+        <item>Think of your favorite books (try for whichever one is the most popular and therefore likely to have a translation), and get it in Mandarin. I\'ve found that reading something like my favorite Harry Potter book is great to use to learn since I already had most of the book memorized.</item>
+        <item>A website for news in Chinese, written with respect to the HSK levels so that you can read at your level with ease.</item>
+    </string-array>
+</resources>

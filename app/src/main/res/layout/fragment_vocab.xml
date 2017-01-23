@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.outsideaglass.chinect.VocabActivityFragment"
+    tools:showIn="@layout/activity_vocab"
+    android:baselineAligned="false"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vocabHackingChineseArticle"
+            android:textSize="@dimen/primary_button_text_size"
+            android:background="@drawable/button_yellow"
+            android:textStyle="normal|bold"
+            style="@style/AppTheme.PrimaryButton"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/ankiTitle"
+            style="@style/AppTheme.Title"
+            />
+
+        <TextView
+            android:id="@+id/ankiTextView"
+            style="@style/AppTheme.ResourceTextView"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ankiButton"
+            android:textSize="@dimen/button_text_size"
+            android:background="@drawable/button_red"
+            android:textStyle="normal|bold"
+            style="@style/AppTheme.Button"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/plecoTitle"
+            style="@style/AppTheme.Title"
+            />
+
+        <TextView
+            android:id="@+id/plecoTextView"
+            style="@style/AppTheme.ResourceTextView"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/plecoButton"
+            android:textSize="@dimen/button_text_size"
+            android:background="@drawable/button_red"
+            android:textStyle="normal|bold"
+            style="@style/AppTheme.Button"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:id="@+id/vocabHackingChineseTitle"
+            style="@style/AppTheme.Title"
+            />
+
+        <TextView
+            android:id="@+id/vocabHackingChineseTextView"
+            style="@style/AppTheme.ResourceTextView"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vocabHackingChineseButton"
+            android:textSize="@dimen/button_text_size"
+            android:background="@drawable/button_red"
+            android:textStyle="normal|bold"
+            style="@style/AppTheme.Button"
+            />
+
+    </LinearLayout>
+</ScrollView>
