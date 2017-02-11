@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:background="@drawable/button_red"
-            style="@style/AppTheme.PrimaryButton"
+            style="@style/AppTheme.FirstPrimaryButton"
             android:textSize="@dimen/primary_button_text_size"/>
 
         <Button
@@ -60,7 +60,7 @@
             android:text="@string/vocab"
             android:id="@+id/vocabButton"
             android:layout_height="wrap_content"
-            style="@style/AppTheme.PrimaryButton"
+            style="@style/AppTheme.LastPrimaryButton"
             android:background="@drawable/button_red"
             android:layout_width="wrap_content"
             android:textSize="@dimen/primary_button_text_size" />

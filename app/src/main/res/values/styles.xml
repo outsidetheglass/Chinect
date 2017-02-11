@@ -15,7 +15,7 @@
     </style>
 
     <style name="AppTheme.Button">
-        <item name="android:layout_marginBottom">@dimen/spacing</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_button</item>
         <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
         <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
         <item name="android:layout_gravity">center</item>
@@ -31,7 +31,40 @@
     </style>
 
     <style name="AppTheme.PrimaryButton">
-        <item name="android:layout_marginBottom">@dimen/spacing</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_button</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingBottom">@dimen/primary_button_padding_tb</item>
+        <item name="android:paddingTop">@dimen/primary_button_padding_tb</item>
+        <item name="android:paddingLeft">@dimen/primary_button_padding_lr</item>
+        <item name="android:paddingRight">@dimen/primary_button_padding_lr</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="AppTheme.FirstPrimaryButton">
+        <item name="android:layout_marginBottom">@dimen/spacing_button</item>
+        <item name="android:layout_marginTop">@dimen/spacing_button</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingBottom">@dimen/primary_button_padding_tb</item>
+        <item name="android:paddingTop">@dimen/primary_button_padding_tb</item>
+        <item name="android:paddingLeft">@dimen/primary_button_padding_lr</item>
+        <item name="android:paddingRight">@dimen/primary_button_padding_lr</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="AppTheme.LastPrimaryButton">
+        <item name="android:layout_marginBottom">@dimen/spacing_last_button</item>
         <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
         <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
         <item name="android:layout_gravity">center</item>
